@@ -1,0 +1,36 @@
+ 
+ 
+ xx {
+position: ; /* static, relative, absolute, fixed, sticky */ 
+
+display: ; /* block, inline-block, inline, grid, flex, none */
+/* float: ;  left, right, both */
+/* clear: ; left, right, both, none  */
+
+/* flex-direction: ;  */
+/* flex-wrap: ;  'wrap' engage à mettre à la ligne les items qui sortent du cadre */
+
+/* align-items: ; stretch (default value) , center flex-start flex-end :: vertical alignement  */
+/* justify-content: ; space-around, space-between, flex-start (default value), flex-end, :: horizontal alignement  */
+}
+
+/* yy = item inside xx box */
+yy {
+/* flex: 1 4px ;  1=proportion de largeur , 'px=minimum wide for items inside xx-flexbox : the container */
+
+}
+yz {
+    /* flex: 3 ;  3=trois fois plus large que les autres yy items*/
+}
+
+zz {
+ border: 4px solid green ; /* 4px=épaisseur , solid=style : dotted dashed groove inset outset etc. , color */
+ border-radius : 5px ; /* arrondi les coins */
+ box-shadow: 10px 10px 5px 3px gray ; /*  10px= décalage hauteur-largeur, 5px=flou bordure, 3px=etendue de l'ombre au-delà des bords*/ 
+
+}
+
+aa {
+
+}
+
